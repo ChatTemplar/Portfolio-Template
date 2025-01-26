@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+
+.box {
+    border: 1px solid white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word; 
+}
+
+.align-center {
+    text-align: center;
+}
+
+.boxtable {
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.boxtable td {
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+}
+
+.center-div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    left: 0;
+}
